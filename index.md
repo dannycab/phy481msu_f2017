@@ -58,6 +58,10 @@ to the real world. *Required Prerequisites:* MTH 234 or MTH 254H or LB 220
 2.  An "iClicker", available at the bookstore, will be used
     every lecture.
 
+##### Optional purchase:
+
+1. H.M. Schey. [*Div, Grad, Curl, and All That*, 4th Edition](https://www.amazon.com/Div-Grad-Curl-All-That/dp/0393925161) (Norton and Company; 2004). This book is a great resource for developing a conceptual understanding of vector calculus. We will make extensive use of the ideas in this book.
+
 ### Course Activities
 
 #### Readings
@@ -125,10 +129,10 @@ in-class and online participation, which basically "unweights" the exams.
 
 | Activity   |            Date           | Percent of Grade |
 |------------|:-------------------------:|-----------------:|
-| Exam 1     |         Wed Oct 5         |              20% |
-| Exam 2     |         Wed Nov 2         |              20% |
-| Final Exam |         Thu Dec 15        |              20% |
-| Homework   | Due Fri at start of class |              40% |
+| Exam 1     |         TBD               |              20% |
+| Exam 2     |         TBD               |              20% |
+| Final Exam |         TBD               |              20% |
+| Homework   |         TBD               |              40% |
 
 
 **Clickers:** Clickers are pure extra credit: they REDUCE total midterm weights up to 10% of exam total. That is, the total number of clicker questions you answer divided by the total number of questions given is the fraction of the 10% reduction you will receive. For example, let's assume you answer 90% of the clicker questions over the course of the semester then your two midterm exams count for 36.4% of your grade instead of 40%.
