@@ -11,7 +11,6 @@ transition: slide
 
 Prof. Danny Caballero
 
-Mr. Dennis Foren
 </section>
 
 <section data-markdown>
@@ -34,15 +33,15 @@ Email: <forenden@msu.edu>
 
 * Course Webpage: [dannycab.github.io/phy481msu/](http://dannycab.github.io/phy481msu/)
 * Discussion Forum: [
-piazza.com/msu/fall2016/phy481](https://
-piazza.com/msu/fall2016/phy481) (*Check your email*)
+piazza.com/msu/fall2017/phy481](https://
+piazza.com/msu/fall2017/phy481) (*Check your email*)
 
 </section>
 
 <section data-markdown>
 
 ### Course Activities
-* Exams (2 of them; October 5 & November 2) - 20% each
+* Exams (2 of them; TBD) - 20% each
 * Final Exam (Time and Location: TBD) - 20%
 * Homework (Lots of it; Due on Fridays) - 40%
 * Clickers - Extra Credit - reduce impact of exams
@@ -85,7 +84,7 @@ How likely are you to attend the help sessions?
 
 ## This Week!!!
 
-* Homework 1 is already up (Due Sept. 9)
+* Homework 1 is already up (Due TBD)
 * Read (seriously do this!) Griffiths Ch 1.1-1.4 & 2.1-2.2 [1]
 * [Download Anaconda distribution of Python](https://www.continuum.io/downloads)
 
