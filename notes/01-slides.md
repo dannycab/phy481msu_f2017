@@ -22,16 +22,16 @@ Email: <caballero@pa.msu.edu>
 
 Cell phone: 517-420-5330 (texting is fine)
 
-### Contacting Dennis
+### Contacting TA
 
-Email: <forenden@msu.edu>
+Email: <TA@msu.edu>
 
 </section>
 
 <section data-markdown>
 ### Important Sites
 
-* Course Webpage: [dannycab.github.io/phy481msu/](http://dannycab.github.io/phy481msu/)
+* Course Webpage: [dannycab.github.io/phy481msu/](http://dannycab.github.io/phy481msu_f2017/)
 * Discussion Forum: [
 piazza.com/msu/fall2017/phy481](https://
 piazza.com/msu/fall2017/phy481) (*Check your email*)
