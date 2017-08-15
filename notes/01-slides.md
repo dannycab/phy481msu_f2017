@@ -41,9 +41,9 @@ piazza.com/msu/fall2017/phy481) (*Check your email*)
 <section data-markdown>
 
 ### Course Activities
-* Exams (2 of them; TBD) - 20% each
+* Exams (2 of them; Oct 13 and Nov 10) - 20% each
 * Final Exam (Time and Location: TBD) - 20%
-* Homework (Lots of it; Due on Fridays) - 40%
+* Homework (Lots of it; Due on Wednesdays) - 40%
 * Clickers - Extra Credit - reduce impact of exams
 
 [Much more detail on website](http://dannycab.github.io/phy481msu/)
