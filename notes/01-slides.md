@@ -85,7 +85,7 @@ How likely are you to attend the help sessions?
 
 ## This Week!!!
 
-* Homework 1 is already up (Due TBD)
+* Homework 1 is already up (Due Wed. Sept. 6)
 * Read (seriously do this!) Griffiths Ch 1.1-1.4 & 2.1-2.2 [1]
 * [Download Anaconda distribution of Python](https://www.continuum.io/downloads)
 
