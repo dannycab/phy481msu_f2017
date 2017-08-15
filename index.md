@@ -84,7 +84,7 @@ Questions in lecture are always good, and are strongly encouraged!
 
 #### Homework
 
-There will be a homework due every Friday at the start of class. Late
+There will be a homework due every Wednesday at the start of class. Late
 homework can't be accepted once solutions are posted - but, your lowest
 score will be dropped. Homework is exceedingly important for developing
 an understanding of the course material, not to mention building skills
@@ -127,12 +127,12 @@ Your course grade is largely determined by a combination of your
 performance on exams and homework. There will be some extra credit for
 in-class and online participation, which basically "unweights" the exams.
 
-| Activity   |            Date           | Percent of Grade |
-|------------|:-------------------------:|-----------------:|
-| Exam 1     |         TBD               |              20% |
-| Exam 2     |         TBD               |              20% |
-| Final Exam |         TBD               |              20% |
-| Homework   |         TBD               |              40% |
+| Activity   |            Date              | Percent of Grade |
+|------------|:----------------------------:|-----------------:|
+| Exam 1     |       Fri. Oct. 13           |              20% |
+| Exam 2     |       Fri. Nov. 10           |              20% |
+| Final Exam |          TBD                 |              20% |
+| Homework   |  Due Wed. at start of class  |              40% |
 
 
 **Clickers:** Clickers are pure extra credit: they REDUCE total midterm weights up to 10% of exam total. That is, the total number of clicker questions you answer divided by the total number of questions given is the fraction of the 10% reduction you will receive. For example, let's assume you answer 90% of the clicker questions over the course of the semester then your two midterm exams count for 36.4% of your grade instead of 40%.
