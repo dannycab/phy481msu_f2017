@@ -60,12 +60,13 @@ Learning is a social and collaborative act!
 
 Question to you: When should we do this?
 
-1. Monday 6pm-7pm+
-2. Tuesday 6pm-7pm+
-3. Wednesday 6pm-7pm+
-4. Thursday 6pm-7pm+
+1. Monday 4-5pm
+2. Monday 5-6pm
+3. Tuesday 4-5pm
+4. Tuesday 5-6pm
+5. None of these times work
 
-Reminder: Homework is due on Fridays.
+Reminder: Homework is due on Wednesdays.
 
 </section>
 
