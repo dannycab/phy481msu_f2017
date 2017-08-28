@@ -22,16 +22,18 @@ Email: <caballero@pa.msu.edu>
 
 Cell phone: 517-420-5330 (texting is fine)
 
-### Contacting TA
+### Contacting Zhouyou
 
-Email: <TA@msu.edu>
+Zhouyou Fan
+
+Email: <fanzhouy@msu.edu>
 
 </section>
 
 <section data-markdown>
 ### Important Sites
 
-* Course Webpage: [dannycab.github.io/phy481msu/](http://dannycab.github.io/phy481msu_f2017/)
+* Course Webpage: [dannycab.github.io/phy481msu_f2017/](http://dannycab.github.io/phy481msu_f2017/)
 * Discussion Forum: [
 piazza.com/msu/fall2017/phy481](https://
 piazza.com/msu/fall2017/phy481) (*Check your email*)
@@ -46,7 +48,7 @@ piazza.com/msu/fall2017/phy481) (*Check your email*)
 * Homework (Lots of it; Due on Wednesdays) - 40%
 * Clickers - Extra Credit - reduce impact of exams
 
-[Much more detail on website](http://dannycab.github.io/phy481msu/)
+[Much more detail on website](http://dannycab.github.io/phy481msu_f2017/)
 
 </section>
 
