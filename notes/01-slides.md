@@ -105,6 +105,7 @@ How likely are you to attend the help sessions?
 * Installation instructions appear on the piazza site.
 * Homework questions will take the form of [a Jupyter notebook](https://github.com/dannycab/phy481msu/blob/gh-pages/jupyter/HW1-GradientProblem.ipynb), which you can print to PDF and turn in.
 * If you get stuck somewhere, post on piazza, so your classmates benefit from your question.
+* Computational HW problems are turned in via Dropbox file requests. *Look for link at the top of each homework assignment and include your name in the filename!*
 
 </section>
 
