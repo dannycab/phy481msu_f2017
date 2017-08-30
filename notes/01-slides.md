@@ -127,6 +127,17 @@ As a Spartan, I will strive to uphold values of the highest ethical standard. I 
 </section>
 
 <section data-markdown>
+### Advice from those who came before you
+
+* Go to class every day and participate in the clicker questions/discussion
+* The homework is challenging but very important, don't short cut it
+* Start your homework early and spend your time on understanding all of it
+* Don't do it alone; form study groups
+* Attend the help session, but start the homework first
+
+</section>
+
+<section data-markdown>
 
 Thinking of what you want to get out of your college education and this course, which of the following is *most* important to you?
 
@@ -149,6 +160,16 @@ All three of these goals are clearly important. However,  which of these three g
 <section data-markdown>
 
 # Questions?
+
+</section>
+
+<section data-markdown>
+Are you interested in a Physics GRE study group?
+
+1. Yes
+2. No
+3. Maybe
+
 
 </section>
 
