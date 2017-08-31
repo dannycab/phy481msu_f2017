@@ -40,7 +40,7 @@ Given that we do not have class on Monday (Labor Day holiday), would you be more
 
 * Exams!!!
   * Evening Exams
-  * Oct 4 and Nov 8, 7pm-9pm, 1415 BPS
+  * Oct 4 (A149 PSS) and Nov 8 (1415 BPS), 7pm-9pm
 * Homework Help Session
     * Monday 4-5pm in 1420 BPS
     * Tuesday 4-5pm in 1300 BPS
