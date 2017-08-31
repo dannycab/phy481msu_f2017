@@ -5,8 +5,6 @@ permalink: ./index.html
 use_math: true
 ---
 
-**Some aspects of this syllabus will be finalized with input from you.**
-
 ## Electricity and Magnetism I Fall 2017
 
 [Course Learning Goals](./learning_goals.html)
@@ -27,7 +25,11 @@ use_math: true
 
 #### Homework Help Session
 
-We will discuss when to hold homework help sessions during the first class period. Look here for schedule.
+* Help Sessions
+    * Monday 4-5pm in 1420 BPS
+    * Tuesday 4-5pm in 1300 BPS
+* Danny also has open door office hours
+  * Mornings are good and Tuesdays
 
 ### Overview
 
@@ -128,9 +130,9 @@ in-class and online participation, which basically "unweights" the exams.
 
 | Activity   |            Date              | Percent of Grade |
 |------------|:----------------------------:|-----------------:|
-| Exam 1     |       Fri. Oct. 13           |              20% |
-| Exam 2     |       Fri. Nov. 10           |              20% |
-| Final Exam |          TBD                 |              20% |
+| Exam 1     |       Wed. Oct. 4 (7pm-9pm)  |              20% |
+| Exam 2     |       Wed. Nov. 8 (7pm-9pm)  |              20% |
+| Final Exam |       Tues. Dec. 12          |              20% |
 | Homework   |  Due Wed. at start of class  |              40% |
 
 
