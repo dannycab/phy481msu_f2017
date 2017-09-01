@@ -9,7 +9,7 @@ use_math: true
 
 [**Dropbox file request link for Homework 1**](https://www.dropbox.com/request/zs3eQWcrV3bW5jT9uTTD)
 
-# Homework 1 (Due September 6th)
+# Homework 1 (Due September 8th)
 
 Homework 1 emphasizes the mathematical formalism and related thinking that you will draw on in class. This homework focuses on Sections 1.1-1.4 of Griffiths, which covers differential, integral, and vector calculus. It also serves as an introduction to using [Jupyter notebooks](http://jupyter.org), which you will use on most homework assignments. With regard to computation on this homework, you will be using the [sympy](http://sympy.org) library, which allows you to perform symbolic manipulations (like Mathematica), and the [matplotlib](http://matplotlib.org/) library, which allows you to plot different kinds of figures.
 
