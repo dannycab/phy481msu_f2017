@@ -4,5 +4,5 @@ layout: page
 permalink: ./assignments/index.html
 ---
 
-* [Homework 1 - Due Sept. 6th](./homework1.html)
+* [Homework 1 - Due Sept. 8th](./homework1.html)
 * [Homework 2 - Due Sept. 13th](./homework2.html)
