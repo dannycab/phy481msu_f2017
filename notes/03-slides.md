@@ -27,6 +27,9 @@ Note:
 * Homework 2 is posted and covers through section 2.1
   - It is due next Wednesday
   - We will come back to section 1.5 later
+* Make sure you have registered your clicker!
+  - I will start shaming people publically on Friday.
+  - [https://goo.gl/cVfzS5](https://goo.gl/cVfzS5)
 
 </section>
 
