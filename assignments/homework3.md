@@ -63,6 +63,8 @@ For parts 1 and 2, consider a sphere of radius $R$, centered one the origin, wit
 
 #### 5. Overlapping clouds of charge
 
+<div class="alert alert-danger" role="alert">HEY! No need to solve problem 5 this week! The material surrounding problem 5 will be covered in class on Wednesday. This problem will be due as the first homework problem for Homework 4. If you have already solved it, please save the solution for Homework 4.</div>
+
 When solving some E&M problems, you will need to develop your argument (i.e., you solution) using an arbitrary location. In this problem, consider how choosing an arbitrary point in the overlapping region of the charge clouds will help you derive the result.
 
 ![Overlapping Clouds](./images/hw3/overlapping_clouds.png "Overlapping Clouds")
