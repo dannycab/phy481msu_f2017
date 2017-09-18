@@ -6,6 +6,8 @@ title: Homework 4 (Due September 27th)
 
 Homework 4 emphasizes another alternative method to direct integration for solving the electric field problem by reducing the vector problem to a scalar one by using electric potential. In addition, it introduces the electric potential energy concept. This homework emphasizes 2.3 and 2.4, but Sec. 2.2 (Gauss’ Law) continues to be very important.
 
+[**Dropbox file request link for Homework 4**](https://www.dropbox.com/request/g5McF17qICtb6TdR3TKL)
+
 #### 1. Overlapping clouds of charge
 
 When solving some E&M problems, you will need to develop your argument (i.e., you solution) using an arbitrary location. In this problem, consider how choosing an arbitrary point in the overlapping region of the charge clouds will help you derive the result.
