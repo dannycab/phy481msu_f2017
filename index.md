@@ -14,7 +14,7 @@ use_math: true
 -   Instructor: [Prof. Danny Caballero](http://dannycab.github.io)
 -   Contact: <caballero@pa.msu.edu>, cell: (517) 420-5330, office:
     1310-A BPS
--   Web page: [dannycab.github.io/phy481msu_f2017/](http://dannycab.github.io/phy481msu/)
+-   Web page: [dannycab.github.io/phy481msu_f2017/](http://dannycab.github.io/phy481msu_f2017/)
 -   Class Meetings: MWF 12:40 PM - 1:30 PM (1415 BPS)
 -   Office hrs: Open door policy. I enjoy visiting and talking with you about physics.
 
