@@ -12,3 +12,4 @@ permalink: notes/index.html
 - Lecture 6 (September 13th): Coulomb's Law and Taylor Series [[HTML]](./06-slides.html) [[PDF]](./06-slides.pdf)
 - Lecture 7 (September 15th): Gauss' Law [[HTML]](./07-slides.html) [[PDF]](./07-slides.pdf)
 - Lecture 8 (September 18th): Dirac Delta Functions [[HTML]](./08-slides.html) [[PDF]](./08-slides.pdf)
+- Lecture 9 (September 20th): Gauss' Law 2 [[HTML]](./09-slides.html) [[PDF]](./09-slides.pdf)
