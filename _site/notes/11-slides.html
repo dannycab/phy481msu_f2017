@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>
+      
+        Physics 481
+      
+    </title>
+
+    <meta name="author" content="" />
+
+    <!-- Description -->
+    
+      <meta name="description" content="Website for Physics 481 - Electricity and Magnetism I at Michigan State University
+">
+    
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="/phy481msu_f2017/reveal.js/css/reveal.css"/>
+    
+      <link rel="stylesheet" href="/phy481msu_f2017/reveal.js/css/theme/white.css" id="theme"/>
+    
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="/phy481msu_f2017/reveal.js/lib/css/zenburn.css"/>
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? '/phy481msu_f2017/reveal.js/css/print/pdf.css' : '/phy481msu_f2017/reveal.js/css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <link rel="apple-touch-icon" href="/phy481msu_f2017/apple-touch-icon.png" />
+
+    <link rel="canonical" href="http://localhost:4000/phy481msu_f2017/notes/11-slides.html">
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown="">
+
+Is it mathematically ok to do this?
+
+$$\mathbf{E} = \dfrac{1}{4\pi\varepsilon_0}\int_V\rho(\mathbf{r}')d\tau'\left(-\nabla\dfrac{1}{\mathfrak{R}}\right)$$
+
+$$\longrightarrow \mathbf{E} =-\nabla\left( \dfrac{1}{4\pi\varepsilon_0}\int_V\rho(\mathbf{r}')d\tau'\dfrac{1}{\mathfrak{R}}\right)$$
+
+1. Yes
+2. No
+3. ???
+</section>
+
+<section data-markdown="">
+
+If $\nabla \times \mathbf{E} = 0$, then $\oint_C \mathbf{E} \cdot d\mathbf{l} =$
+
+1. 0
+2. something finite
+3. $\infty$
+4. Can't tell without knowing $C$
+
+</section>
+
+<section data-markdown="">
+
+Can superposition be applied to electric potential, $V$?
+
+$$V_{tot} \stackrel{?}{=} \sum_i V_i = V_1 +V_2 + V_3 + \dots$$
+
+1. Yes
+2. No
+3. Sometimes
+
+Note:
+As long as the zero potential is the same for all measurements.
+
+</section>
+
+      </div>
+    </div>
+
+    <script src="/phy481msu_f2017/reveal.js/lib/js/head.min.js"></script>
+    <script src="/phy481msu_f2017/reveal.js/js/reveal.js"></script>
+    <script>
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        
+          transition: 'slide',
+        
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: '/phy481msu_f2017/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: '/phy481msu_f2017/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '/phy481msu_f2017/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '/phy481msu_f2017/reveal.js/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: '/phy481msu_f2017/reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: '/phy481msu_f2017/reveal.js/plugin/notes/notes.js', async: true },
+          { src: '/phy481msu_f2017/reveal.js/plugin/math/math.js', async: true }
+        ]
+      });
+
+    </script>
+
+  </body>
+</html>
