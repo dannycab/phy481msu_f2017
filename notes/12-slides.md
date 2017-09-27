@@ -6,15 +6,16 @@ transition: slide
 
 <section data-markdown>
 
-<img src="./images/graph_shell.png" align="center" style="width: 400px";/>
+We derived the electric potential outside ($r>R$) the charged shell to be
 
-Could this be a plot of $\left|\mathbf{E}(r)\right|$? Or $V(r)$? (for SOME physical situation?)
+$$V(r) = \dfrac{1}{4\pi\varepsilon_0}\dfrac{q}{r}$$
 
-1. Could be $E(r)$, or $V(r)$
-2. Could be $E(r)$, but can't be $V(r)$
-3. Can't be $E(r)$, could be $V(r)$
-4. Can't be either
-5. ???
+What is it for $r<R$?
+
+1. Zero
+2. Constant
+3. It changes but I don't know how yet
+4. Something else
 
 Note:
 * Correct Answer: B
@@ -42,6 +43,23 @@ Note:
 * Sketch and discuss delta functions in relation to charge density, $\rho$
 * Calculate the electric field, $\mathbf{E}$, inside and outside a continuous distribution of charge and sketch the results
 * Calculate the electric potential, $V$, for a specific charge distribution and discuss what happens in limiting cases
+
+</section>
+
+<section data-markdown>
+
+<img src="./images/graph_shell.png" align="center" style="width: 400px";/>
+
+Could this be a plot of $\left|\mathbf{E}(r)\right|$? Or $V(r)$? (for SOME physical situation?)
+
+1. Could be $E(r)$, or $V(r)$
+2. Could be $E(r)$, but can't be $V(r)$
+3. Can't be $E(r)$, could be $V(r)$
+4. Can't be either
+5. ???
+
+Note:
+* Correct Answer: B
 
 </section>
 
