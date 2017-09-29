@@ -16,3 +16,4 @@ permalink: notes/index.html
 - Lecture 10 (September 22nd): Gauss' Law 3 [[HTML]](./10-slides.html) [[PDF]](./10-slides.pdf)
 - Lecture 11 (September 25th): Electric Potential [[HTML]](./11-slides.html) [[PDF]](./11-slides.pdf)
 - Lecture 12 (September 27th): Boundary Conditions and Energy [[HTML]](./12-slides.html) [[PDF]](./12-slides.pdf)
+- Lecture 13 (September 29th): Energy and Introduction to Conductors [[HTML]](./13-slides.html) [[PDF]](./13-slides.pdf)
