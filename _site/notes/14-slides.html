@@ -41,7 +41,7 @@
 
     <link rel="apple-touch-icon" href="/phy481msu_f2017/apple-touch-icon.png" />
 
-    <link rel="canonical" href="http://localhost:4000/phy481msu_f2017/notes/13-slides.html">
+    <link rel="canonical" href="http://localhost:4000/phy481msu_f2017/notes/14-slides.html">
 
     <!--[if lt IE 9]>
     <script src="lib/js/html5shiv.js"></script>
@@ -54,78 +54,56 @@
       <div class="slides">
         <section data-markdown="">
 
-Does system energy "superpose"?
+A point charge $+q$ sits outside a **solid neutral conducting copper sphere** of radius $A$. The charge q is a distance $r &gt; A$ from the center, on the right side. What is the E-field at the center of the sphere? (Assume equilibrium situation).
 
-That is, if you have one system of charges with total stored energy $W_1$, and a second charge distribution with $W_2$...if you superpose these charge distributions, is the total energy of the new system simply $W_1 + W_2$?
+&lt;img src="./images/copper_1.png" align="left" style="width: 300px";/&gt;
 
-1. Yes
-2. No
-
-Note:
-* CORRECT ANSWER: B
-* Draw 4 charges and show that it is not the sum of the 2 charges and the other 2.
-
-</section>
-
-<section data-markdown="">
-
-## Announcements
-* Homework 5 has a partner problem
-  - Review problem that you share with each other
-  - Can share on Piazza (for extra credit!)
-
-* Exam 1 is Wednesday (7-9pm in A149 PSS)
-</section>
-
-<section data-markdown="">
-
-&lt;img src="./images/pt_charges_energy.png" align="center" style="width: 300px";/&gt;
-
-
-Two charges, $+q$ and $-q$, are a distance $r$ apart.  As the charges are slowly moved together, the total field energy
-
-$$\dfrac{\varepsilon_0}{2}\int E^2 d\tau$$
-
-1. increases
-2. decreases
-3. remains constant
+1. $|E| = kq/r^2$, to left
+2. $kq/r^2 &gt; |E| &gt; 0$, to left
+3. $|E| &gt; 0$, to right
+4. $E = 0$
+5. None of these
 
 Note:
-* CORRECT ANSWER: B
-* Consider when they overlap, field goes to zero, must be E gets smaller as they get closer. same volume
+* CORRECT ANSWER: D
+* Net electric field inside of a metal in static equilibrium is zero
+* Talk about the net field versus the field due to the charges on the metal.
+
 </section>
 
 <section data-markdown="">
 
-&lt;img src="./images/capacitor_pull_apart.png" align="center" style="width: 500px";/&gt;
+In the previous question, suppose **the copper sphere is charged**, total charge $+Q$. (We are still in static equilibrium.) What is now the magnitude of the E-field at the center of the sphere?
 
+&lt;img src="./images/copper_2.png" align="left" style="width: 300px";/&gt;
 
-A parallel-plate capacitor has $+Q$ on one plate, $-Q$ on the other.  The plates are isolated so the charge $Q$ cannot change.  As the plates are pulled apart, the total electrostatic energy stored in the capacitor:
+1. $|E| = kq/r^2$
+2. $|E| = kQ/A^2$
+3. $|E| = k(q-Q)/r^2$
+4. $|E| = 0$
+5. None of these! / it’s hard to compute
 
-1. increases
-2. decreases
-3. remains constant.
+Note:
+* CORRECT ANSWER: D
+* Talk about the net field versus the field due to the charges on the metal.
+</section>
+
+<section data-markdown="">
+
+We have a large copper plate with uniform surface charge density, $\sigma$.
+Imagine the Gaussian surface drawn below.  Calculate the E-field a small distance $s$ above the conductor surface.
+
+&lt;img src="./images/copper_plate.png" align="left" style="width: 300px";/&gt;
+
+1. $|E| = \frac{\sigma}{\varepsilon_0}$
+2. $|E| = \frac{\sigma}{2\varepsilon_0}$
+3. $|E| = \frac{\sigma}{4\varepsilon_0}$
+4. $|E| = \frac{1}{4\pi\varepsilon_0}\frac{\sigma}{s^2}$
+5. $|E| = 0$
 
 Note:
 * CORRECT ANSWER: A
-* Same E; constant; larger volume where it is non-zero
-</section>
-
-<section data-markdown="">
-
-### Conductors
-
-&lt;img src="./images/electron_sea.gif" align="center" style="width: 700px";/&gt;
-
-
-</section>
-
-<section data-markdown="">
-
-### The conductor problem
-
-&lt;img src="./images/metal.png" align="center" style="width: 500px";/&gt;
-
+* Might have to do derivation and go through details of infinitely thin line charge. Must be +sigma on other side, btw.
 
 </section>
 
