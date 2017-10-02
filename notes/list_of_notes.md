@@ -17,3 +17,4 @@ permalink: notes/index.html
 - Lecture 11 (September 25th): Electric Potential [[HTML]](./11-slides.html) [[PDF]](./11-slides.pdf)
 - Lecture 12 (September 27th): Boundary Conditions and Energy [[HTML]](./12-slides.html) [[PDF]](./12-slides.pdf)
 - Lecture 13 (September 29th): Energy and Introduction to Conductors [[HTML]](./13-slides.html) [[PDF]](./13-slides.pdf)
+- Lecture 14 (October 2nd): Conductors [[HTML]](./14-slides.html) [[PDF]](./14-slides.pdf)
