@@ -76,7 +76,7 @@ Note:
 
 Consider a long coaxial with charge $+Q$ placed on the inside metal wire and $-Q$ outside metal sheath as shown.
 
-<img src="./images/coax_ABC.png" align="left" style="width: 300px";/>
+<img src="./images/coax_abc.png" align="left" style="width: 300px";/>
 
 Sketch the distribution of charge in this situtation using plus signs to represent positive chages and minus signs to represent negative charges.
 
