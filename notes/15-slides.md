@@ -6,18 +6,23 @@ transition: slide
 
 <section data-markdown>
 
-A neutral copper sphere has a spherical hollow in the center.  A charge $+q$ is placed in the center of the hollow.  What is the total charge on the outside surface of the copper sphere? (Assume Electrostatic equilibrium.)
+With $\nabla \times \mathbf{E} = 0$, we know that,
 
-<img src="./images/coppersphere_hole_and_charge.png" align="left" style="width: 350px";/>
+$$\oint \mathbf{E} \cdot d\mathbf{l} = 0$$
 
-1. Zero
-2. $-q$
-3. $+q$
-4. $0 < q_{outer} < +q$
-5. $-q < q_{outer} < 0$
+If we choose a loop that includes a metal and vacuum (i.e., both in and just outside of the metal), we know that the contribution to this integral in the metal vanishes. What can we say about the contribution just outside the metal?
 
+1. It vanishes also
+2. $\mathbf{E}$ must be zero out there
+3. $\mathbf{E}$ must be perpendicular to d$\mathbf{l}$ everywhere
+4. $\mathbf{E}$ is perpendicular to the metail surface
+5. More than one of these
+
+Note:
+* Correct answer: E (both A and D)
 
 </section>
+
 
 <section data-markdown>
 
@@ -44,6 +49,24 @@ Crystal Bailey
 American Physical Society
 
 **In this room, tomorrow 4:10pm-5pm**
+
+</section>
+
+<section data-markdown>
+
+A neutral copper sphere has a spherical hollow in the center.  A charge $+q$ is placed in the center of the hollow.  What is the total charge on the outside surface of the copper sphere? (Assume Electrostatic equilibrium.)
+
+<img src="./images/coppersphere_hole_and_charge.png" align="left" style="width: 350px";/>
+
+1. Zero
+2. $-q$
+3. $+q$
+4. $0 < q_{outer} < +q$
+5. $-q < q_{outer} < 0$
+
+Note:
+* Correct answer: C
+
 
 </section>
 
