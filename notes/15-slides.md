@@ -19,6 +19,33 @@ A neutral copper sphere has a spherical hollow in the center.  A charge $+q$ is 
 
 </section>
 
+<section data-markdown>
+
+## Announcements
+
+* Exam 1 TONIGHT (7pm-9pm)
+  - A149 PSS; Across from FRIB (Wilson side)
+* Homework 6 is posted (Due next Wed.)
+
+</section>
+
+<section data-markdown>
+
+## Physics Colloquium
+
+### Breaking the Myth of the "Non-Traditional" Physicist
+#### The Real Story About Employment for Physics Graduates
+
+Crystal Bailey
+
+
+*Careers Program Manager*
+
+American Physical Society
+
+**In this room, tomorrow 4:10pm-5pm**
+
+</section>
 
 <section data-markdown>
 

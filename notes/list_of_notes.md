@@ -18,3 +18,4 @@ permalink: notes/index.html
 - Lecture 12 (September 27th): Boundary Conditions and Energy [[HTML]](./12-slides.html) [[PDF]](./12-slides.pdf)
 - Lecture 13 (September 29th): Energy and Introduction to Conductors [[HTML]](./13-slides.html) [[PDF]](./13-slides.pdf)
 - Lecture 14 (October 2nd): Conductors [[HTML]](./14-slides.html) [[PDF]](./14-slides.pdf)
+- Lecture 15 (October 4th): Conductors II: Electric Boogaloo [[HTML]](./15-slides.html) [[PDF]](./15-slides.pdf)
