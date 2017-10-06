@@ -19,3 +19,4 @@ permalink: notes/index.html
 - Lecture 13 (September 29th): Energy and Introduction to Conductors [[HTML]](./13-slides.html) [[PDF]](./13-slides.pdf)
 - Lecture 14 (October 2nd): Conductors [[HTML]](./14-slides.html) [[PDF]](./14-slides.pdf)
 - Lecture 15 (October 4th): Conductors II: Electric Boogaloo [[HTML]](./15-slides.html) [[PDF]](./15-slides.pdf)
+- Lecture 16 (October 6th): Introduction to Laplace's Equation [[HTML]](./16-slides.html) [[PDF]](./16-slides.pdf)

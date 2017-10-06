@@ -41,7 +41,7 @@
 
     <link rel="apple-touch-icon" href="/phy481msu_f2017/apple-touch-icon.png" />
 
-    <link rel="canonical" href="http://localhost:4000/phy481msu_f2017/notes/15-slides.html">
+    <link rel="canonical" href="http://localhost:4000/phy481msu_f2017/notes/16-slides.html">
 
     <!--[if lt IE 9]>
     <script src="lib/js/html5shiv.js"></script>
@@ -54,117 +54,80 @@
       <div class="slides">
         <section data-markdown="">
 
-With $\nabla \times \mathbf{E} = 0$, we know that,
+&lt;img src="./images/capacitor_gap_connected.png" align="center" style="width: 500px";/&gt;
 
-$$\oint \mathbf{E} \cdot d\mathbf{l} = 0$$
 
-If we choose a loop that includes a metal and vacuum (i.e., both in and just outside of the metal), we know that the contribution to this integral in the metal vanishes. What can we say about the contribution just outside the metal?
+A parallel plate capacitor is attached to a battery which maintains a constant voltage difference V between the capacitor plates.  While the battery is attached, the plates are pulled apart. The electrostatic energy stored in the capacitor
 
-1. It vanishes also
-2. $\mathbf{E}$ must be zero out there
-3. $\mathbf{E}$ must be perpendicular to d$\mathbf{l}$ everywhere
-4. $\mathbf{E}$ is perpendicular to the metail surface
-5. More than one of these
+1. increases.
+2. decreases.
+3. stays constant.
 
 Note:
-* Correct answer: E (both A and D)
+* CORRECT ANSWER: B
+* Potential same; field is reduced; but shows up squared while d is increased, overall goes down
+</section>
+
+<section data-markdown="">
+
+I feel that Exam 1 was a fair assessment.
+
+1. Strongly Agree
+2. Agree
+3. Neither Agree/Disagree
+4. Disagree
+5. Strongly Disagree
 
 </section>
 
 <section data-markdown="">
 
-## Announcements
+I feel that Exam 1 was aligned with what we have been doing (in class and on homework).
 
-* Exam 1 TONIGHT (7pm-9pm)
-  - A149 PSS; Across from FRIB (Wilson side)
-* Homework 6 is posted (Due next Wed.)
-
-</section>
-
-<section data-markdown="">
-
-## Physics Colloquium
-
-### Breaking the Myth of the "Non-Traditional" Physicist
-#### The Real Story About Employment for Physics Graduates
-
-Crystal Bailey
-
-
-*Careers Program Manager*
-
-American Physical Society
-
-**In this room, tomorrow 4:10pm-5pm**
+1. Strongly Agree
+2. Agree
+3. Neither Agree/Disagree
+4. Disagree
+5. Strongly Disagree
 
 </section>
 
 <section data-markdown="">
 
-A neutral copper sphere has a spherical hollow in the center.  A charge $+q$ is placed in the center of the hollow.  What is the total charge on the outside surface of the copper sphere? (Assume Electrostatic equilibrium.)
+### Laplace's Equation
 
-&lt;img src="./images/coppersphere_hole_and_charge.png" align="left" style="width: 350px";/&gt;
+&lt;img src="./images/laplace.png" align="center" style="width: 900px";/&gt;
 
-1. Zero
-2. $-q$
-3. $+q$
-4. $0 &lt; q_{outer} &lt; +q$
-5. $-q &lt; q_{outer} &lt; 0$
+
+</section>
+
+<section data-markdown="">
+
+&lt;img src="./images/region_w_no_charge.png" align="right" style="width: 200px";/&gt;
+
+
+A region of space contains no charges. What can I say about $V$ in the interior?
+
+1. Not much, there are lots of possibilities for $V(r)$ in there
+2. $V(r)=0$ everywhere in the interior.
+3. $V(r)=$constant everywhere in the interior
 
 Note:
-* Correct answer: C
-
-
-</section>
-
-<section data-markdown="">
-
-&lt;img src="./images/cylinder_charge_outside.png" align="right" style="width: 250px";/&gt;
-
-A long coax has total charge $+Q$ on the OUTER conductor. The INNER conductor is neutral.
-
-What is the sign of the potential difference, $\Delta V = V(c)-V(0)$, between the center of the inner conductor ($s = 0$)
-and the outside of the outer conductor?
-
-1. Positive
-2. Negative
-3. Zero
-
-Note:
-* CORRECT ANSWER: C
+* CORRECT ANSWER: A
 
 </section>
 
 <section data-markdown="">
 
-&lt;img src="./images/conducting_cap_plates_simple.png" align="right" style="width: 300px";/&gt;
+&lt;img src="./images/region_with_no_charge_Vset.png" align="right" style="width: 200px";/&gt;
 
 
-Given a pair of very large, flat, conducting capacitor plates with total charges $+Q$ and $-Q$. Ignoring edges, what is the equilibrium distribution of the charge?
+A region of space contains no charges. The boundary has V=0 everywhere.
+What can I say about $V$ in the interior?
 
-1. Throughout each plate
-2. Uniformly on both side of each plate
-3. Uniformly on top of $+Q$ plate and bottom of $–Q$ plate
-4. Uniformly on bottom of $+Q$ plate and top of $–Q$ plate
-5. Something else
-
-Note:
-* CORRECT ANSWER: D
-
-</section>
-
-<section data-markdown="">
-
-&lt;img src="./images/conducting_cap_plates.png" align="right" style="width: 400px";/&gt;
-
-
-Given a pair of very large, flat, conducting capacitor plates with surface charge densities $+/-\sigma$, what is the E field in the region between the plates?
-
-1. $\sigma/2\varepsilon_0$
-2. $\sigma/\varepsilon_0$
-3. $2\sigma/\varepsilon_0$
-4. $4\sigma/\varepsilon_0$
-5. Something else
+1. Not much, there are lots of possibilities for $V(r)$ in there
+2. $V(r)=0$ everywhere in the interior.
+3. $V(r)=$constant everywhere in the interior
 
 Note:
 * CORRECT ANSWER: B
@@ -173,22 +136,83 @@ Note:
 
 <section data-markdown="">
 
-&lt;img src="./images/capacitor_gap_bigger.png" align="right" style="width: 300px";/&gt;
+&lt;img src="./images/cubical_lattice.png" align="center" style="width: 300px";/&gt;
 
 
-You have two very large parallel plate capacitors, both with the same area and the same charge $Q$.
-Capacitor \#1 has twice the gap of Capacitor \#2. Which has more stored potential energy?
+If you put a positive test charge at the center of this cube of charges, could it be in stable equilibrium?
 
-1. \#1 has twice the stored energy
-2. \#1 has more than twice
-3. They both have the same
-4. \#2 has twice the stored energy
-5. \#2 has more than twice.
+1. Yes
+2. No
+3. ???
+
+Note:
+* CORRECT ANSWER: B
+
+</section>
+
+<section data-markdown="">
+
+### Separation of Variables (Cartesian)
+
+&lt;img src="./images/cartesian_sep_variables.png" align="center" style="width: 500px";/&gt;
+
+
+
+</section>
+
+<section data-markdown="">
+
+Say you have three functions $f(x)$, $g(y)$, and $h(z)$.
+$f(x)$  depends on $x$ but not on $y$ or $z$.
+$g(y)$ depends on $y$ but not on $x$ or $z$.
+$h(z)$ depends on $z$ but not on $x$ or $y$.
+
+If $f(x) + g(y) + h(z) = 0$ for all $x$, $y$, $z$, then:
+
+1. All three functions are constants (i.e. they do not depend on $x$, $y$, $z$ at all.)
+2. At least one of these functions has to be zero everywhere.
+3. All of these functions have to be zero everywhere.
+4. All three functions have to be linear functions in $x$, $y$, or $z$ respectively (such as $f(x)=ax+b$)
 
 Note:
 * CORRECT ANSWER: A
-* E same; twice volume
 
+</section>
+
+<section data-markdown="">
+
+If our general solution contains the function,
+
+$$X(x) = Ae^{\sqrt{c}x} + Be^{-\sqrt{c}x}$$
+
+What does our solution look like if $c&lt;0$; what about if $c&gt;0$?
+
+1. Exponential; Sinusoidal
+2. Sinusoidal; Exponential
+3. Both Exponential
+4. Both Sinusoidal
+5. ???
+
+Note:
+* CORRECT ANSWER: B
+
+</section>
+
+<section data-markdown="">
+
+Our example problem has the following boundary conditions:
+
+* $V(0,y&gt;0) = 0; V(a,y&gt;0) = 0$
+* $V(x_{0\rightarrow a},y=0) = V_0; V(x,y\rightarrow \infty) = 0$
+
+If $X''= c_1 X$ and $Y'' = c_2Y$ with $c_1 + c_2 = 0$, which is constant is positive?
+
+1. $c_1$
+2. $c_2$
+3. It doesn't matter either can be
+
+Note:
+* CORRECT ANSWER: B
 </section>
 
       </div>
