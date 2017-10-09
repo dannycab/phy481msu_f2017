@@ -41,7 +41,7 @@
 
     <link rel="apple-touch-icon" href="/phy481msu_f2017/apple-touch-icon.png" />
 
-    <link rel="canonical" href="http://localhost:4000/phy481msu_f2017/notes/17-slides.html">
+    <link rel="canonical" href="http://localhost:4000/phy481msu_f2017/notes/18-slides.html">
 
     <!--[if lt IE 9]>
     <script src="lib/js/html5shiv.js"></script>
@@ -54,14 +54,46 @@
       <div class="slides">
         <section data-markdown="">
 
-&lt;img src="./images/cubical_lattice.png" align="center" style="width: 300px";/&gt;
+### Separation of Variables (Cartesian)
+
+&lt;img src="./images/cartesian_sep_variables.png" align="center" style="width: 500px";/&gt;
 
 
-If you put a positive test charge at the center of this cube of charges, could it be in stable equilibrium?
 
-1. Yes
-2. No
-3. ???
+</section>
+
+<section data-markdown="">
+
+Say you have three functions $f(x)$, $g(y)$, and $h(z)$.
+$f(x)$  depends on $x$ but not on $y$ or $z$.
+$g(y)$ depends on $y$ but not on $x$ or $z$.
+$h(z)$ depends on $z$ but not on $x$ or $y$.
+
+If $f(x) + g(y) + h(z) = 0$ for all $x$, $y$, $z$, then:
+
+1. All three functions are constants (i.e. they do not depend on $x$, $y$, $z$ at all.)
+2. At least one of these functions has to be zero everywhere.
+3. All of these functions have to be zero everywhere.
+4. All three functions have to be linear functions in $x$, $y$, or $z$ respectively (such as $f(x)=ax+b$)
+
+Note:
+* CORRECT ANSWER: A
+
+</section>
+
+<section data-markdown="">
+
+If our general solution contains the function,
+
+$$X(x) = Ae^{\sqrt{c}x} + Be^{-\sqrt{c}x}$$
+
+What does our solution look like if $c&lt;0$; what about if $c&gt;0$?
+
+1. Exponential; Sinusoidal
+2. Sinusoidal; Exponential
+3. Both Exponential
+4. Both Sinusoidal
+5. ???
 
 Note:
 * CORRECT ANSWER: B
@@ -70,69 +102,19 @@ Note:
 
 <section data-markdown="">
 
-### Method of Relaxation
+Our example problem has the following boundary conditions:
 
-&lt;img src="./images/convergence_relax.png" align="center" style="width: 700px";/&gt;
+* $V(0,y&gt;0) = 0; V(a,y&gt;0) = 0$
+* $V(x_{0\rightarrow a},y=0) = V_0; V(x,y\rightarrow \infty) = 0$
 
+If $X''= c_1 X$ and $Y'' = c_2Y$ with $c_1 + c_2 = 0$, which is constant is positive?
 
-</section>
-
-<section data-markdown="">
-
-Consider a function $f(x)$ that is both continuous and continuously differentiable over some domain. Given a step size of $a$, which could be an approximate derivative of this function somewhere in that domain? $df/dx \approx$
-
-1. $f(x_i+a) - f(x_i)$
-2. $f(x_i) - f(x_i-a)$
-3. $\frac{f(x_i+a) - f(x_i)}{a}$
-4. $\frac{f(x_i) - f(x_i-a)}{a}$
-5. More than one of these
-
+1. $c_1$
+2. $c_2$
+3. It doesn't matter either can be
 
 Note:
-* Correct Answer: E (C and D)
-</section>
-
-<section data-markdown="">
-If we choose to use:
-
-$$\dfrac{df}{dx} \approx \dfrac{f(x_i+a) - f(x_i)}{a}$$
-
-Where are we computing the approximate derivative?
-
-1. $a$
-2. $x_i$
-3. $x_i + a$
-4. Somewhere else
-
-Note:
-* Correct Answer: D (it's halfway between)
-
-</section>
-
-<section data-markdown="">
-
-Taking the second derivative of $f(x)$ discretely is as simple as applying the discrete definition of the derivative,
-
-$$f''(x_i) \approx \dfrac{f'(x_i + a/2) - f'(x_i - a/2)}{a}$$
-
-Derive the second derivative in terms of $f$.
-
-</section>
-
-<section data-markdown="">
-
-To investigate the convergence, we must compare the estimate of $V$ before and after each calculation. For our 1D relaxation code, $V$ will be a 1D array. For the kth estimate, we can compare $V_k$ against its previous value by simply taking the difference.
-
-Store this in a variable called ``err``. What is the type for ``err``?
-
-1. A single number
-2. A 1D array
-3. A 2D array
-4. ???
-
-Note:
-* Coreect Answer: B
-
+* CORRECT ANSWER: B
 </section>
 
       </div>
