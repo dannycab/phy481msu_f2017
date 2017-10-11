@@ -21,4 +21,5 @@ permalink: notes/index.html
 - Lecture 15 (October 4th): Conductors II: Electric Boogaloo [[HTML]](./15-slides.html) [[PDF]](./15-slides.pdf)
 - Lecture 16 (October 6th): Introduction to Laplace's Equation [[HTML]](./16-slides.html) [[PDF]](./16-slides.pdf)
 - Lecture 17 (October 9th): Method of Relaxation [[HTML]](./17-slides.html) [[PDF]](./17-slides.pdf)
-- Lecture 18 (October 11th): Separation of Variables [[HTML]](./18-slides.html) [[PDF]](./18-slides.pdf)
+- Lecture 18 (October 11th): Separation of Variables - Cartesian [[HTML]](./18-slides.html) [[PDF]](./18-slides.pdf)
+- Lecture 19 (October 13th): Separation of Variables II - Cartesian [[HTML]](./19-slides.html) [[PDF]](./19-slides.pdf)
