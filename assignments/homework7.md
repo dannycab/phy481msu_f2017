@@ -4,6 +4,10 @@ use_math: true
 title: Homework 7 (Due October 18th)
 ---
 
+Homework 7 focuses on Laplace's equations and solving it using infinite series solutions. You should become comfortable with setting boundary conditions for PDE problems like this and develop a sense of the process for solving these problems analytically. Additionaly, you will plot these solutions in 2D and develop the method of relaxation in 1D to investigate issues with the method.
+
+[Dropbox file request link for Homework 6](https://www.dropbox.com/request/ReuOdcuKjvoLvVZok72Z)
+
 ## 1. Potential and electric field with Laplace's equation
 
 In class we derived the solution for the 2D version of Laplace's equation with the boundary conditions shown below.
@@ -46,3 +50,31 @@ A square rectangular pipe (sides of length $a$) runs parallel to the z-axis (fro
 3. Find the charge density $\sigma(x,y=0,z)$ everywhere on the bottom conducting wall $(y=0)$.
 
 ## 4. Reminders about Gauss' Law
+
+Consider a hypothetical sphere of charge with radius $a$. The charge density for this $\rho(r) = \frac{c}{\sqrt{r}}$.
+
+1. Using Gauss' Law find the electric field inside and outside there sphere. What are the units of $c$?
+2. Why would would use Gauss' Law for this problem and not directly integrate the charge density or find $\mathbf{E}$ or $V$?
+3. What if the charge density were $\rho(r,\phi) = \frac{c}{\sqrt{r}}\sin(\phi)$? What approach might you use here? *You do not have to solve this problem, we will find a way to solve problems like it approximately in the ''far field'' limit later.*
+
+## 5. Method of relaxation in 1D
+
+In this problem, you will write a 1D method of relaxation solver for Laplace's equation. Your solver should start with boundary conditions (e.g., $V(0) = 0$ and $V(1) = 1$) and then use the method of relaxation to develop a linear solution (as we know the analytical solution). This might seem silly, but it will be clearly important to know this method well in 2D. Secondly, you will investigate what happens when you make bad initial guesses. At this point, you have written a several different codes for this class. So, for this problem, I will not provide a notebook, but ask that you write your own. I will, however, remind you of the pseudocode that we developed in class.
+
+* Cut up the space into equal size bins (called the mesh) of size $a$
+* Set the boundary conditions at V(left side) and V(right side)
+* Make some reasonable guess for all the values in between
+* Set a maximum number of iterations (just in case)
+* For each value NOT at the boundary (careful here) set it equal to average of the surrounding two points
+  - Compute the error (e.g., the difference between all the points before and after the previous step)
+  - Compare the error to your acceptable value
+  - Repeat the averaging until you reach the acceptable value or hit the maximum iterations
+* Plot your results
+
+While working this problem, I will ask that you:
+
+1. For at least one set of boundary conditions, plot all the estimates of the potential until your answer converges (to demonstrate how the algorithm works)
+2. Plot how many iterations it takes to achieve different levels of acceptable error (0.1, 0.01, etc.). Do not go too small because your code may run for a very long time.
+3. Attempt to increase/reduce the number of iterations with poorer/better initial guesses. What kinds of initial guesses coverge the quickest, which ones are the slowest to coverge?
+4. Find guesses that throw off the algorithm (i.e., give nonsensiscal answers). Griffith's mentions this in the book, that the method of relaxation works for "reasonable initial guesses." As a hint, try sinsoudial, expoential, or logarithmic guesses.
+5. BONUS: If you find anything interesting while working this problem that is not discussed in these 4 questions, just include it for extra credit.
