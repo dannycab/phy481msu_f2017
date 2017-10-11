@@ -54,17 +54,18 @@
       <div class="slides">
         <section data-markdown="">
 
-The Method of Relaxation also works for Poission's equation (i.e., when there is charge!).
+The Method of Relaxation also works for Poisson's equation (i.e., when there is charge!).
 
 Given, $\nabla^2 V \approx \dfrac{V(x+a)-2V(x)+V(x-a)}{a^2}$
 
 Which equations describes the appropriate "averaging" that we must do:
 
 1. $V(x) = \dfrac{1}{2}(V(x+a)-V(x-a))$
-2. $V(x) = \dfrac{\rho}{\varepsilon_0}+\dfrac{1}{2}(V(x+a)-V(x-a))$
-3. $V(x) = \dfrac{a^2\rho}{2\varepsilon_0}+\dfrac{1}{2}(V(x+a)-V(x-a))$
-4. Something else
+2. $V(x) = \dfrac{\rho(x)}{\varepsilon_0}+\dfrac{1}{2}(V(x+a)+V(x-a))$
+3. $V(x) = \dfrac{a^2\rho(x)}{2\varepsilon_0}+\dfrac{1}{2}(V(x+a)+V(x-a))$
 
+Note:
+* Correct answer: C
 
 
 </section>
