@@ -84,7 +84,19 @@ Draft the psuedocode for finding the approximate potential.
 
 <img src="./images/metal_in_ext_field.jpg" align="center" style="width: 500px";/>
 
+</section>
 
+<section data-markdown>
+
+Given $\nabla^2 V = 0$ in Cartesian coords, we separated $V(x,y,z) = X(x)Y(y)Z(z)$. Will this approach work in spherical coordinates, i.e. can we separate $V(r,\theta,\phi) = R(r)\Theta(\theta)\Phi(\phi)$?
+
+
+1. Sure.
+2. Not quite - the angular components cannot be isolated, e.g., $f(r,\theta,\phi) = R(r)Y(\theta,\phi)$
+3. It won't work at all because the spherical form of Laplace's Equation has cross terms in it (see the front cover of Griffiths)
+
+Note:
+* CORRECT ANSWER: A
 
 </section>
 
