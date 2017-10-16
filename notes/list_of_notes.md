@@ -24,3 +24,4 @@ permalink: notes/index.html
 - Lecture 18 (October 11th): Separation of Variables - Cartesian [[HTML]](./18-slides.html) [[PDF]](./18-slides.pdf)
 - Lecture 19 (October 13th): Separation of Variables II - Cartesian [[HTML]](./19-slides.html) [[PDF]](./19-slides.pdf)
 - Lecture 20 (October 16th): 2D Relaxation & Separation of Variables I - Spherical [[HTML]](./20-slides.html) [[PDF]](./20-slides.pdf)
+- Lecture 21 (October 18th): Separation of Variables II - Spherical [[HTML]](./21-slides.html) [[PDF]](./21-slides.pdf)
