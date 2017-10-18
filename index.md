@@ -28,8 +28,6 @@ use_math: true
 * Help Sessions
     * Monday 4-5pm in 1420 BPS
     * Tuesday 4-5pm in 1300 BPS
-* Danny also has open door office hours
-  * Mornings are good and Tuesdays
 
 ### Overview
 
