@@ -6,6 +6,16 @@ transition: slide
 
 <section data-markdown>
 
+I still have questions about what we are trying to do with separation of variables in spherical coordinates.
+
+1. Yes, definitely, let's talk about what we are trying to do (briefly).
+2. I have some questions, but I think I got the gist of it. We can move on.
+3. I got it, let's move on.
+
+</section>
+
+<section data-markdown>
+
 $$V(r,\theta) = \sum_{l=0}^{\infty} \left(A_l r^l + \dfrac{B_l}{r^{l+1}}\right)P_l(\cos \theta)$$
 
 
