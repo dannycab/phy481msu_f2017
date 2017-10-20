@@ -44,6 +44,7 @@ Two charges are positioned as shown to the left. The relative position vector be
 2. $-q\mathbf{d}$
 3. Zero
 4. None of these
+5. Sherman's March to the Sea
 
 Note:
 * CORRECT ANSWER: A
