@@ -44,7 +44,7 @@ where $k$ is some constant.
 
 You are going to find the potential inside and outside the sphere (there are no charges other than those at the surface of the sphere) as well as the charge density $\sigma(\theta)$ on the surface of the sphere. Each part of this problem is meant to walk you through the process for solving these kinds of boundary-value problems.
 
-1. Rewrite the potential at the surface using Legendre polynomials. *You will need to dust off some trig identities to do this.*
+1. Rewrite the potential at the surface using Legendre polynomials. *You will need to dust off some trig identities to do this.* You can find a [listing of Legendre polynomials online](http://mathworld.wolfram.com/LegendrePolynomial.html).
 2. Using this boundary condition and the knowledge that $V$ should be finite inside the sphere, find the electric potential, $V(r,\theta)$, inside this sphere. You do not have to re-derive the general solution to Laplace's equation, just use the result:
 $$V(r,\theta) = \sum_l \left(A_lr^l+\dfrac{B_l}{r^{l+1}}\right)P_l(\cos \theta)$$
 3. Using the same boundary condition and the knowledge that $V$ should vanish far from the sphere, find the electric potential, $V(r,\theta)$, outside this sphere.
