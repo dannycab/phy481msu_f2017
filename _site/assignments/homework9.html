@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>About</title>
+  <title>Homework 9 (Due November 1st)</title>
   <meta name="description" content="Website for Physics 481 - Electricity and Magnetism I at Michigan State University
 ">
 
   <link rel="stylesheet" href="/phy481msu_f2017/styles/site.css">
-  <link rel="canonical" href="http://localhost:4000/phy481msu_f2017/about/">
+  <link rel="canonical" href="http://localhost:4000/phy481msu_f2017/assignments/homework9.html">
   <link rel="alternate" type="application/rss+xml" title="Physics 481" href="http://localhost:4000/phy481msu_f2017/feed.xml">
   <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
@@ -307,48 +307,91 @@
 </header>-->
 
 
-    <div class="page-content">
-      <div class="wrapper">
-        <div class="container well">
+      <div class="container well">
 
-  <header class="post-header">
-    <h1 class="post-title">About</h1>
-  </header>
+        <h1 class="post-title">Homework 9 (Due November 1st)</h1>
+          <div >
+    <p>Homework 9 helps you further investigates the multipole expansion and develop models for polarization that we will use to understand electric fields in matter. There is no Python problem this week.</p>
 
-  <div class="post-content">
-    <p>This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at <a href="https://jekyllrb.com/">jekyllrb.com</a></p>
+<h2 id="1-multipole-expansion-of-a-single-point-charge">1. Multipole Expansion of a Single Point Charge</h2>
 
-<p>You can find the source code for the Jekyll new theme at:
-<a href="https://github.com/jekyll"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"></path></svg>
-</span><span class="username">jekyll</span></a>
- /
-<a href="https://github.com/jekyll/minima">minima</a></p>
+<p>For this problem, consider a single point charge $+q$.</p>
 
-<p>You can find the source code for Jekyll at
-<a href="https://github.com/jekyll"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"></path></svg>
-</span><span class="username">jekyll</span></a>
- /
-<a href="https://github.com/jekyll/jekyll">jekyll</a></p>
+<ol>
+  <li>Place the charge at the origin, write down the electric potential at a location $\mathbf{r} = \langle x,y,z \rangle$ from the origin.</li>
+  <li>Move the charge to a short distance away from the origin on the $z$-axis, $\mathbf{r}’ = \langle 0,0,d\rangle$. Write down the electric potential at a location $\mathbf{r} = \langle x,y,z \rangle$ from the origin.</li>
+  <li>Assume the location of interest in Part 2 is far from the charge ($r»d$). Expand your result in Part 2 keeping only the two leading order terms. Interpret these terms in light of the multipole expansion. <em>Hint: It might help to rewrite your result in spherical coordinates.</em></li>
+  <li>How do you resolve that your answer to Part 1 only contains a monopole term where your answer to Part 3 contains additional terms? Explain your reasoning.</li>
+</ol>
+
+<h2 id="2-a-curious-sphere-of-charge">2. A Curious Sphere of Charge</h2>
+
+<p>In this problem, we ask you to plot a few functions. You have plotted quite a bit using Jupyter, so we expect that you will use a Jupyter notebook of your own design to do your plotting now.</p>
+
+<p>Consider a sphere of radius $R$ that has a volume charge density inside the sphere given by:</p>
+
+<script type="math/tex; mode=display">\rho(r,\theta) = \mu r \sin\left(\dfrac{3\theta}{2}\right)</script>
+
+<p>where $\mu$ is known constant and $\theta$ is the usual polar angle in spherical coordinates.</p>
+
+<ol>
+  <li>Plot $\rho(r,\theta)/r$ in units of $\mu$ as a function of $\theta$. Where does this charge live in space? Note that $\rho \propto r$.</li>
+  <li>Calculate the total charge, $Q$, on the sphere.</li>
+  <li>Calculate the dipole moment, $\mathbf{p}$, of the sphere.</li>
+  <li>Use your results from Parts 2 and 3 to find $V(r,\theta)$ when you are far from the sphere ($r»R$). Discuss how your results make sense with the plot in Part 1.</li>
+  <li>The function $\sin\left(\frac{3\theta}{2}\right) \approx \frac{1}{\sqrt{2}} + \frac{3}{2\sqrt{2}}\cos\theta$, which would suggest that the volume charge density can be written as $\rho(r,\theta) \approx \frac{\mu r}{\sqrt{2}} + \frac{3\mu r}{2\sqrt{2}} \cos \theta$. So this will look like a superposition of a spherically symmetric density and a density proportional to $\cos \theta$. Plot $\rho(r,\theta)/r$ in units of $\mu$ as a function of $\theta$ in this approximation.</li>
+  <li>How does your plot in Part 1 compare to your plot in Part 5? Is this a good approximation to the original charge density? What does this imply about our approximation of $V$ compared to the exact $V$?</li>
+</ol>
+
+<h2 id="3-atomic-hydrogen-and-the-polarization-model">3. Atomic hydrogen and the polarization model</h2>
+
+<p>Griffiths Table 4.1 gives an experimental value for $\alpha/4\pi\varepsilon_0$ for atomic hydrogen. (Read his caption carefully for units!)</p>
+
+<ol>
+  <li>The “atomic polarizibility”, $\alpha$ is defined by $\mathbf{p}=\alpha\mathbf{E}$. Study Griffiths’ Example 4.1, which tells you how to estimate the atomic polarizability, summarize the example in your own words.</li>
+  <li>Following the example and using it with this experimental value for $\alpha/4\pi\varepsilon_0$ for atomic hydrogen, estimate the atomic radius of hydrogen. How well did you do, compared, say, with the Bohr radius?</li>
+  <li>After summarizing the example, tell us what physical assumption (simplification!) Griffiths is making about the physical distribution of negative charge inside an atom? Is that realistic?</li>
+  <li>Now suppose you have a single hydrogen atom inside a charged parallel-plate capacitor, with plate spacing 1 mm, and voltage 100 V. Determine the “separation distance” $d$ (as defined in that same Example 4.1 problem) of the electron cloud and the proton nucleus. What fraction of the atomic radius of part 2 is this? (You should conclude that 100 V across a 1mm gap capacitor is unlikely to ionize a hydrogen atom, do you agree?)</li>
+  <li>Use your calculations to roughly estimate what voltage (and thus, what E-field) would ionize this single hydrogen atom. (We’d say if you can pull the electron cloud one full atomic radius away, it’s breaking down! )</li>
+</ol>
+
+<h2 id="4-polarized-sphere-of-charge">4. Polarized sphere of charge</h2>
+
+<p>Consider a dielectric sphere of radius $a$ that has a polarization that is directed radially outward from the center of the sphere, $\mathbf{P} = P_0\mathbf{r}$.</p>
+
+<ol>
+  <li>Determine the bound charges at the surface, $\sigma_B$, and in the volume of the sphere, $\rho_B$.</li>
+  <li>Find the electric field everywhere.</li>
+  <li>Sketch the electric field lines inside and outside the sphere. What does your sketch say about the electric field at the boundary of the sphere? Does this make sense to you? Why or why not?</li>
+</ol>
+
+<h2 id="5-the-bar-electret">5. The bar electret</h2>
+
+<p>A curious little device that is the electrical analog of the bar magnet is the bar electret. It is a short cylinder with a radius of $b$ and a length $l$ that carries a uniform polarization $\mathbf{P}$ along its axis. In this problem, you will sketch the electric field produced by the bar electret for several scenarios.</p>
+
+<ol>
+  <li>Find the bound charge everywhere in or on the bar electret.</li>
+  <li>Sketch and describe the electric field produced by the bar electret if its length is much greater than its radius (long and skinny, $L»b$).</li>
+  <li>Sketch and describe the electric field produced by the bar electret if its length is much smaller than its radius (short and fat, $L«b$).</li>
+  <li>Sketch and describe the electric field produced by the bar electret if its length is roughly equal to its radius ($L\approx b$).</li>
+</ol>
+
+<h2 id="6-charge-conservation">6. Charge conservation</h2>
+
+<p>When a neutral dielectric is polarized, no new charges are created or destroyed, so the total charge must still be zero. The charge density on the surface is given by:</p>
+
+<script type="math/tex; mode=display">\sigma_B = \mathbf{P}\cdot\hat{n}</script>
+
+<p>The charge density in the bulk is given by:</p>
+
+<script type="math/tex; mode=display">\rho_B = -\nabla \cdot \mathbf{P}</script>
+
+<p>Using these definitions, show that the total charge for any neutral dielectric with a polarization $\mathbf{P}$ is zero.</p>
 
   </div>
 
-</div>
 
       </div>
-    </div>
-
-    <footer class="footer">
-    <div class="container alert alert-info">
-        <div class="col-md-8">
-            <p>Website for Physics 481 - Electricity and Magnetism I at Michigan State University
-</p>
-        </div>
-        <div class="col-md-4">
-          Contact: <a href="mailto:caballero@pa.msu.edu">caballero@pa.msu.edu</a> <i class="fa fa-envelope" aria-hidden="true"></i>
-        </div>
-    </div>
-</footer>
-
 
   </body>
 
