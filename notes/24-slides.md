@@ -6,6 +6,29 @@ transition: slide
 
 <section data-markdown>
 
+**True or False**: The electric potential of a pure dipole is given exactly by:
+
+$$V(r) = \dfrac{\mathbf{p}\cdot\mathbf{r}}{4 \pi\varepsilon_0 r^3}$$
+
+1. True
+2. False
+
+</section>
+
+<section data-markdown>
+
+## Announcements
+
+* Homework 7 Problem 5 graded as pure extra credit
+* Exam 2 is coming up (2 weeks from today)
+  * BPS 1415 (this room), 7pm-9pm, Nov 8th
+  * Same format as Exam 1
+  * Details next week
+
+</section>
+
+<section data-markdown>
+
 $$\mathbf{p} = \sum_i q_i \mathbf{r}_i$$
 
 What is the magnitude of the dipole moment of this charge distribution?
