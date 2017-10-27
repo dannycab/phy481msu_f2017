@@ -27,4 +27,5 @@ permalink: notes/index.html
 - Lecture 21 (October 18th): Separation of Variables II - Spherical [[HTML]](./21-slides.html) [[PDF]](./21-slides.pdf)
 - Lecture 22 (October 20th): Separation of Variables III - Spherical Examples [[HTML]](./22-slides.html) [[PDF]](./22-slides.pdf)
 - Lecture 23 (October 23rd): Multipole Expansion [[HTML]](./23-slides.html) [[PDF]](./23-slides.pdf)
-- Lecture 24 (October 25rd): Multipole Expansion II [[HTML]](./24-slides.html) [[PDF]](./24-slides.pdf)
+- Lecture 24 (October 25th): Multipole Expansion II [[HTML]](./24-slides.html) [[PDF]](./24-slides.pdf)
+- Lecture 25 (October 27th): Multipole Expansion III and Introduction to Polarization [[HTML]](./25-slides.html) [[PDF]](./25-slides.pdf)
