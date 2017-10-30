@@ -6,6 +6,8 @@ title: Homework 9 (Due November 1st)
 
 Homework 9 helps you further investigates the multipole expansion and develop models for polarization that we will use to understand electric fields in matter. There is no Python problem this week.
 
+[Dropbox file request for Homework 9](https://www.dropbox.com/request/QYBCGq9gyYvuoaw2cLw7)
+
 ## 1. Multipole Expansion of a Single Point Charge
 
 For this problem, consider a single point charge $+q$.
