@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Homework 5 (Due October 4th)</title>
+  <title>Homework 10 (Due November 8th)</title>
   <meta name="description" content="Website for Physics 481 - Electricity and Magnetism I at Michigan State University
 ">
 
   <link rel="stylesheet" href="/phy481msu_f2017/styles/site.css">
-  <link rel="canonical" href="http://localhost:4000/phy481msu_f2017/assignments/homework5.html">
+  <link rel="canonical" href="http://localhost:4000/phy481msu_f2017/assignments/homework10.html">
   <link rel="alternate" type="application/rss+xml" title="Physics 481" href="http://localhost:4000/phy481msu_f2017/feed.xml">
   <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
@@ -337,53 +337,54 @@
 
       <div class="container well">
 
-        <h1 class="post-title">Homework 5 (Due October 4th)</h1>
+        <h1 class="post-title">Homework 10 (Due November 8th)</h1>
           <div >
-    <p>Homework 5 continues with exploring relationships between electric charge, electric field, electric potential. In addition, it asks you to explore a major conceptual issue with regard to energy. This homework also has a review problem that requests that you write an exam problem and share it with a classmate to solve. You will turn in your problem, the goals associated with it, and the solution that you wrote for it. You will also turn in the solution to your classmates problem and a paragraph about what you struggled with in solving it. To receive full credit, both must be judged to be exam quality (not just factoids and mathematical manipulation!)</p>
+    <p>Homework 10 focuses on developing ideas about the D-field including how to apply Gauss’ Law for $\mathbf{D}$ and the relationships between $\mathbf{D}$, $\mathbf{E}$, and $\mathbf{P}$. At the end of this problem set is a problem for you and partner to complete as a review for the upcoming exam.</p>
 
-<h4 id="1-screened-coulomb-potential">1. Screened Coulomb Potential</h4>
+<h3 id="1-bound-charges-and-the-d-field">1. Bound charges and the D-field</h3>
 
-<p>In a <a href="./homework3.html#connecting-potential-electric-field-and-charge">previous problem</a>, you worked out the electric field and charge distribution for a point charge using the electric potential.  In this problem, you will gain some additional practice doing this for the <a href="https://en.wikipedia.org/wiki/Electric-field_screening">screened Coulomb potential</a>.</p>
-
-<p>Consider the “screened Coulomb potential” of a point charge $q$ that arises, for example, in plasma physics:</p>
-
-<script type="math/tex; mode=display">V(r) = \dfrac{q}{4\pi\varepsilon_0} \dfrac{e^{-r/\lambda}}{r}</script>
-
-<p>where $\lambda$ is a constant (called <a href="https://en.wikipedia.org/wiki/Debye_length">the screening length</a>).</p>
+<p>Consider a long teflon rod, (a dielectric cylinder), radius $a$. Imagine that we could somehow set up a permanent polarization $\mathbf{P}(s,\phi,z) = k\mathbf{s} ( = ks\hat{s})$, where $s$ is the usual cylindrical radial vector from the $z$-axis, and $k$ is a constant). Neglect end effects, the cylinder is long.</p>
 
 <ol>
-  <li>Determine the electric field $\mathbf{E}(\mathbf{r})$ associated with this potential.</li>
-  <li>Find the charge distribution $\rho(\mathbf{r})$ that produces this potential. (Think carefully about what happens at the origin!)</li>
-  <li>Sketch this function $\rho(\mathbf{r})$ in a manner that clearly describes its characteristics (i.e., what’s the best way of representing this three-dimensional charge distribution? Use it, and explain what you are plotting.)</li>
-  <li>Show, by explicit calculation over $\rho(\mathbf{r})$ that the net charge represented by this distribution is zero. (<em>If you don’t get zero, think again about what happens at $r = 0$.</em>).</li>
-  <li>Verify this result using the integral form of Gauss’ Law (i.e., integrate your electric flux over a <em>very large</em> spherical surface.)</li>
+  <li>Calculate the bound charges $\sigma_{bound}$ (on the outer surface) and $\rho_{bound}$ (in the interior of the rod). What are the units of your constant $k$? Show that the units work out in all formulas you have used involving $k$.</li>
+  <li>Next, use these bound charges (along with Gauss’ law, this problem has very high symmetry!) to find the electric field, $\mathbf{E}$ inside and outside the cylinder. (Your answer should include both the direction and magnitude.)</li>
+  <li>Finally, determine the electric displacement field ($\mathbf{D}$) inside and outside the cylinder using the fundamental definition ($\mathbf{D} = \varepsilon_0 \mathbf{E} + \mathbf{P}$) and verify that “Gauss’ law for D-fields” works out. Explain briefly in words why your answers are what they are.</li>
 </ol>
 
-<h4 id="2-surface-charge-and-boundary-conditions">2. Surface charge and boundary conditions</h4>
+<h3 id="2-bound-charges-and-the-d-field-ii">2. Bound charges and the D-field II</h3>
 
-<p>It might seem to you that the results that the electric field is discontinuous by an amount $\sigma/\varepsilon_0$ isn’t really a big deal. There’s probably a question about how useful this result is. We will come back to this particularly when we get to fields in matter, and suffice it to say, it will help us a lot there. To get a flavor of what is coming, this problem will discuss this discontinuity in a familiar context.</p>
+<p>Now let’s hollow out that teflon rod, so it has inner radius $b$, and outer radius is (still) $a$. Just to make things a little different here, suppose we now set up a different polarization within the teflon material, namely $\mathbf{P}(s,\phi,z) = k\hat{s}$ for $b&lt;s&lt;a$ and where $k$ is a given constant.</p>
 
 <ol>
-  <li>Consider a cylindrical metal rod (radius $r$, length $L$) with a constant charge density $\sigma$ distributed across its outer surface (as we will learn that is the only place the charge can be). Using Gauss’ Law (far from the ends of the rod; assume it’s long and skinny), determine the electric field inside and outside the rod.</li>
-  <li>Take the difference between the electric fields you determined in Part 1 (technically, the perpendicular component) across the outer surface of the metal rod to show you recover the the result that the all the charge lives on the surface.</li>
-  <li>Consider a similarly cylindrical plastic rod with a constant charge density $\rho$ distributed over its entire volume. Again, using Gauss’ Law (far from the ends of the rod; assume it’s long and skinny), determine the electric field inside and outside the rod.</li>
-  <li>Again, take the difference between the electric fields you determined in Part 3 across the outer surface of the plastic rod. What do you find? Does your result make physical sense?</li>
+  <li>We have vacuum for $s&lt;b$ and $s&gt;a$. What does that tell you about $\mathbf{P}$ in those regions? Find the bound charges $\sigma_{bound}$ (on inner and outer surfaces of the hollow rod) and $\rho_{bound}$ (everywhere else).</li>
+  <li>Use these bound charges, along with Gauss’ law, to find the electric field, $\mathbf{E}$, everywhere in space. (Your answer should include the direction and magnitude.)</li>
+  <li>Use Gauss’ Law for D-fields to find $\mathbf{D}$ everywhere in space. <em>This should be quick – use symmetry! Are there any free charges in this problem?</em> Use this (simple) result for $\mathbf{D}$ along with $\mathbf{D}=\varepsilon_0 \mathbf{E}+\mathbf{P}$ to find $\mathbf{E}$ everywhere in space. (This should serve as a check for part 1, and shows why sometimes thinking about D-fields is easier and faster!)</li>
 </ol>
 
-<h4 id="3-an-energy-conundrum">3. An energy conundrum</h4>
+<h3 id="3-point-charge-in-a-spherical-plastic-shell">3. Point charge in a spherical plastic shell</h3>
 
-<p>There’s a bit of a conundrum that occurs when we begin to compare our two different descriptions of energy associated with electrostatic systems. In this problem, you will compare these descriptions and develop an argument that resolves the conundrum.</p>
+<p><img src="./images/hw8/dielectric_shell.png" alt="Dielectric Shell" /></p>
 
-<p>Consider two point charges ($q_1$ and $q_2$) that are brought to be a distance $r$ apart. You can locate them anywhere to develop this argument, but for the sake clarity, let’s put them on the $x$-axis straddling the origin (i.e., one at $r/2$ and the other at $-r/2$).</p>
+<p>A point charge $+Q$ is at the center of a spherical plastic shell (inner radius $a$, outer radius $b$)  The shell is a <strong>linear</strong> dielectric, with a dielectric constant $\varepsilon_r$. The shell is electrically neutral (it has no free charges).</p>
 
 <ol>
-  <li>First, compute the work done to bring the charge configuration together. Recall that it costs nothing (i.e., there’s no work done) to bring the first charge to it’s location. Does this expression look familiar?</li>
-  <li>Now, construct the integral expression for the total energy associated with the charge configuration using the integral formalism: $\frac{\varepsilon_0}{2} \int E^2 d\tau$. Remember that the electric field in this integral expression is due to the field from both charges: $\mathbf{E} = \mathbf{E}_1 + \mathbf{E}_2$. <em>Do not try to integrate it.</em></li>
-  <li>Your integral expression can be expanded out to three terms: in principle, you can integrate one of the terms, but not the other two. Which two can’t you integrate and why not?</li>
-  <li>What is the physical significance of the two un-integrable terms? What must the integrable term be?</li>
+  <li>Compute $\mathbf{E}$, $\mathbf{D}$, and $\mathbf{P}$ everywhere.</li>
+  <li>How is $\mathbf{E}$ inside the plastic ($a&lt;r&lt;b$) different from what it would have been if the plastic were not present? (Explain why/how this difference arises physically.)</li>
+  <li>Sketch $\mathbf{E}(r)$, briefly commenting on any interesting features.</li>
+  <li>Similarly, sketch $\mathbf{D}(r)$.</li>
 </ol>
 
-<h4 id="4-exam-review">4. Exam Review</h4>
+<h3 id="4-injecting-free-charges">4. Injecting free charges</h3>
+
+<p>A solid sphere (radius $R$) of linear dielectric material (dielectric constant $\varepsilon_r$) has been “injected” with a uniform free charge density $\rho_f$ throughout its volume.</p>
+
+<ol>
+  <li>Find the potential at the center of the sphere (with $V(\infty)=0$). <em>Hint: You might want to find D first.</em></li>
+  <li>Does your answer come out larger or smaller than for a simple sphere of charge with uniform charge density $\rho_f$ (that is, if you had neglected the effect of the dielectric constant)? Would that mean setting $\varepsilon_r$ to 0, or to 1?  Does this result make physical sense to you? Explain briefly.</li>
+  <li>What do you get in the limit of infinite dielectric constant? What physical situation does that limit remind you of?</li>
+</ol>
+
+<h3 id="5-exam-review">5. Exam Review</h3>
 
 <p>As a result of working this problem, you will have solved a total of 4 new problems (2 short ones and 2 longer ones), which can go a long way to helping you study for the exam. So take this problem seriously. There is a link to our course goals in the menu above. <a href="../learning_goals.html">Go to that page and read it first!</a> Then,</p>
 
