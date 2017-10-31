@@ -30,3 +30,4 @@ permalink: notes/index.html
 - Lecture 24 (October 25th): Multipole Expansion II [[HTML]](./24-slides.html) [[PDF]](./24-slides.pdf)
 - Lecture 25 (October 27th): Multipole Expansion III and Introduction to Polarization [[HTML]](./25-slides.html) [[PDF]](./25-slides.pdf)
 - Lecture 26 (October 30th): Polarization [[HTML]](./26-slides.html) [[PDF]](./26-slides.pdf)
+- Lecture 26 (October 30th): The D-field [[HTML]](./27-slides.html) [[PDF]](./27-slides.pdf)
