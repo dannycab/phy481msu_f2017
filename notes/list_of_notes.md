@@ -32,3 +32,4 @@ permalink: notes/index.html
 - Lecture 26 (October 30th): Polarization [[HTML]](./26-slides.html) [[PDF]](./26-slides.pdf)
 - Lecture 27 (November 1st): The D-field [[HTML]](./27-slides.html) [[PDF]](./27-slides.pdf)
 - Lecture 28 (November 3rd): Application of the D-field [[HTML]](./28-slides.html) [[PDF]](./28-slides.pdf)
+- Lecture 29 (November 6th): Boundary Conditions and Matter [[HTML]](./29-slides.html) [[PDF]](./29-slides.pdf)
