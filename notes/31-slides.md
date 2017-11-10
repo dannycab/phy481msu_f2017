@@ -8,7 +8,7 @@ transition: slide
 
 A wire loop in a $B$ field has a current $I$. The B-field is localized, it's only in the hatched region, roughly zero elsewhere. Which way is $I$ flowing to hold the mass in place?
 
-<img src="./images/B_holding_mass.png" align="right" style="width: 400px";/>
+<img src="./images/B_holding_mass.png" align="right" style="width: 350px";/>
 
 
 1. Clockwise
@@ -17,6 +17,42 @@ A wire loop in a $B$ field has a current $I$. The B-field is localized, it's onl
 
 Note:
 * CORRECT ANSWER: A
+
+</section>
+
+<section data-markdown>
+
+I feel that Exam 2 was a fair assessment.
+
+1. Strongly Agree
+2. Agree
+3. Neither Agree/Disagree
+4. Disagree
+5. Strongly Disagree
+
+</section>
+
+<section data-markdown>
+
+I feel that Exam 2 was aligned with what we have been doing (in class and on homework).
+
+1. Strongly Agree
+2. Agree
+3. Neither Agree/Disagree
+4. Disagree
+5. Strongly Disagree
+
+</section>
+
+<section data-markdown>
+
+I felt better prepared for Exam 2 thank Exam 1.
+
+1. Strongly Agree
+2. Agree
+3. Neither Agree/Disagree
+4. Disagree
+5. Strongly Disagree
 
 </section>
 
