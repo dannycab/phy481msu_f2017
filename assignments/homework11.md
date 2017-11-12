@@ -6,6 +6,8 @@ title: Homework 11 (Due November 15th)
 
 Homework 11 completes our discussion of electric fields in matter and begins to introduce foudnational ideas for the magnetic field. You will start with magnetic forces and motion, and then get some practice with current densities.
 
+[Dropbox file request for Homework 11](https://www.dropbox.com/request/AFNDUgPtmvnzKBLfEJhm)
+
 ## 1. Capacitor with dielectric
 
 You have a large (infinite in the $x-y$ directions) parallel-plate conductor (two big metal sheets, the upper one has free charge density $+\sigma$, the lower one $-\sigma$). The plates are a distance $a$ apart. The space between the sheets is half filled with a linear dielectric oil with given dielectric constant $\varepsilon_r = 4$. Region  I, (filling the top half of the volume) is vacuum. The lower half, region II, is the dielectric oil. See the figure below.
