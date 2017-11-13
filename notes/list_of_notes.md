@@ -35,3 +35,4 @@ permalink: notes/index.html
 - Lecture 29 (November 6th): Boundary Conditions and Matter [[HTML]](./29-slides.html) [[PDF]](./29-slides.pdf)
 - Lecture 30 (November 8th): Lorentz Force [[HTML]](./30-slides.html) [[PDF]](./30-slides.pdf)
 - Lecture 31 (November 10th): Applying the Lorentz Force [[HTML]](./31-slides.html) [[PDF]](./31-slides.pdf)
+- Lecture 32 (November 13th): Current [[HTML]](./32-slides.html) [[PDF]](./32-slides.pdf)
