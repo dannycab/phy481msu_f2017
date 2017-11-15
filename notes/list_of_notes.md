@@ -36,3 +36,4 @@ permalink: notes/index.html
 - Lecture 30 (November 8th): Lorentz Force [[HTML]](./30-slides.html) [[PDF]](./30-slides.pdf)
 - Lecture 31 (November 10th): Applying the Lorentz Force [[HTML]](./31-slides.html) [[PDF]](./31-slides.pdf)
 - Lecture 32 (November 13th): Current [[HTML]](./32-slides.html) [[PDF]](./32-slides.pdf)
+- Lecture 33 (November 15th): Biot-Savart Law [[HTML]](./33-slides.html) [[PDF]](./33-slides.pdf)
