@@ -41,3 +41,4 @@ permalink: notes/index.html
 - Lecture 35 (November 20th): Ampere's Law Examples [[HTML]](./35-slides.html) [[PDF]](./35-slides.pdf)
 - Lecture 36 (November 22nd): Introduction to the vector potential [[HTML]](./36-slides.html) [[PDF]](./36-slides.pdf)
 - Lecture 37 (November 27th): Vector Potential Examples [[HTML]](./37-slides.html) [[PDF]](./37-slides.pdf)
+- Lecture 38 (November 29th): Magnetic Dipoles [[HTML]](./38-slides.html) [[PDF]](./38-slides.pdf)
