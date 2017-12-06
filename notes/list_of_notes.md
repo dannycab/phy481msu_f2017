@@ -44,3 +44,4 @@ permalink: notes/index.html
 - Lecture 38 (November 29th): Magnetic Dipoles [[HTML]](./38-slides.html) [[PDF]](./38-slides.pdf)
 - Lecture 39 (December 1st): Introduction to Magnetization [[HTML]](./39-slides.html) [[PDF]](./39-slides.pdf)
 - Lecture 40 (December 1st): Magnetization and Bound Currents [[HTML]](./40-slides.html) [[PDF]](./40-slides.pdf)
+- Lecture 41 (December 3rd): The H-Field [[HTML]](./41-slides.html) [[PDF]](./41-slides.pdf)
